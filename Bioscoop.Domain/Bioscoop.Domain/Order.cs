@@ -62,10 +62,10 @@ namespace Bioscoop.Domain
 
         public void Export(TicketExportFormat exportFormat, string filePath)
         {
-            if (filePath is null || filePath.Equals("")) filePath = "C:\\";
             switch (exportFormat)
             {
                 case TicketExportFormat.PLAINTEXT:
+                if (filePath is null || filePath.Equals("")) filePath = "orderInfo.txt";
                     using (StreamWriter writer = new StreamWriter(filePath))
                     {
                         writer.WriteLine("Order Number: " + _orderNr);
@@ -79,6 +79,7 @@ namespace Bioscoop.Domain
                     }
                     break;
                 case TicketExportFormat.JSON:
+                    if (filePath is null || filePath.Equals("")) filePath = "orderInfo.json";
                     string json = JsonSerializer.Serialize(this);
                     File.WriteAllText(filePath, json);
                     break;
