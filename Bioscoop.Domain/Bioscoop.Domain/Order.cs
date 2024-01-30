@@ -1,17 +1,10 @@
 ﻿namespace Bioscoop.Domain
 {
-    public class Order
+    public class Order(int OrderNr, bool IsStudentOrder)
     {
-        private readonly int _orderNr;
-        private readonly bool _isStudentOrder;
-        private readonly List<MovieTicket> _movieTickets;
-
-        public Order(int OrderNr, bool IsStudentOrder)
-        {
-            _orderNr = OrderNr;
-            _isStudentOrder = IsStudentOrder;
-            _movieTickets = new List<MovieTicket>();
-        }
+        private readonly int _orderNr = OrderNr;
+        private readonly bool _isStudentOrder = IsStudentOrder;
+        private readonly List<MovieTicket> _movieTickets = [];
 
         public int GetOrderNr()
         {
@@ -27,8 +20,6 @@
         {
             double price = 0;
 
-            List<MovieTicket> movieTicketsCopy = _movieTickets;
-
             for (int i = 0; i < _movieTickets.Count; i++)
             {
                 var movieTicket = _movieTickets[i];
@@ -36,16 +27,19 @@
 
                 if (_isStudentOrder && i % 2 != 0)
                 {
-                    movieTicketsCopy.Remove(movieTicket);
-                }
-    
-                if (Helpers.IsWeekDay(movieScreening.GetDateAndTime()))
-                {
-                    movieTicketsCopy.Remove(movieTicket);
+                    break;
                 }
 
-                if (_isStudentOrder && movieTicket.isPremiumTicket()) {
-                    price += 2; 
+                if (Helpers.IsWeekDay(movieScreening.GetDateAndTime()))
+                {
+                    break;
+                }
+
+                price += movieTicket.getPrice();
+
+                if (_isStudentOrder && movieTicket.isPremiumTicket())
+                {
+                    price += 2;
                 }
 
                 if (!_isStudentOrder && movieTicket.isPremiumTicket())
@@ -53,11 +47,9 @@
                     price += 3;
                 }
 
-                price += movieTicket.getPrice();
-
                 if (!_isStudentOrder && Helpers.IsWeekendDay(movieScreening.GetDateAndTime()) && _movieTickets.Count >= 6)
                 {
-                    price *= 0.10;
+                    price *= 0.90;
                 }
 
             }
