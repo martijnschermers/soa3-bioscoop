@@ -1,4 +1,7 @@
-﻿namespace Bioscoop.Domain
+﻿using System.Xml;
+using System.Text.Json;
+
+namespace Bioscoop.Domain
 {
     public class Order(int OrderNr, bool IsStudentOrder)
     {
@@ -57,9 +60,28 @@
             return price;
         }
 
-        public void Export(TicketExportFormat exportFormat)
+        public void Export(TicketExportFormat exportFormat, string filePath)
         {
+            switch (exportFormat)
+            {
+                case TicketExportFormat.PLAINTEXT:
+                    using (StreamWriter writer = new StreamWriter(filePath))
+                    {
+                        writer.WriteLine("Order Number: " + _orderNr);
+                        writer.WriteLine("Is Student Order: " + _isStudentOrder);
+                        writer.WriteLine("Movie Tickets:");
 
+                        foreach (var ticket in _movieTickets)
+                        {
+                            writer.WriteLine($"Ticket: {ticket.ToString()}");
+                        }
+                    }
+                    break;
+                case TicketExportFormat.JSON:
+                    string json = JsonSerializer.Serialize(this);
+                    File.WriteAllText(filePath, json);
+                    break;
+            }
         }
     }
 }
