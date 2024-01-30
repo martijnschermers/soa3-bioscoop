@@ -17,6 +17,5 @@ namespace Bioscoop.Domain
         public double getPrice() { return 0; }
 
         public string toString() { return ""; }
-
     }
 }
