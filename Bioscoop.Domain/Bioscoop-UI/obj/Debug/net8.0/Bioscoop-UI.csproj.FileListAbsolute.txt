@@ -28,3 +28,15 @@ C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\obj\Debug\net8.0\
 C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\obj\Debug\net8.0\Bioscoop-UI.pdb
 C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\obj\Debug\net8.0\Bioscoop-UI.genruntimeconfig.cache
 C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\obj\Debug\net8.0\ref\Bioscoop-UI.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\bin\Debug\net8.0\MudBlazor.dll
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\obj\Debug\net8.0\Bioscoop-UI.csproj.AssemblyReference.cache
+C:\SchoolRoot\Jaar 3\soa3-bioscoop\Bioscoop.Domain\Bioscoop-UI\obj\Debug\net8.0\Bioscoop-UI.csproj.CopyComplete
