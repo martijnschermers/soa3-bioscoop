@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Bioscoop.Domain
+﻿namespace Bioscoop.Domain
 {
     public class MovieTicket(MovieScreening movieScreening, bool isPremiumReservation, int seatRow, int seatNr)
     {
@@ -15,6 +9,11 @@ namespace Bioscoop.Domain
         public bool isPremiumTicket() { return isPremium; }
 
         public double getPrice() { return 0; }
+
+        public MovieScreening GetMovieScreening()
+        {
+            return movieScreening;
+        }
 
         public string toString() { return ""; }
     }
