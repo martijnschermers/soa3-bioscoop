@@ -2,19 +2,19 @@
 {
     public class MovieTicket(MovieScreening movieScreening, bool isPremiumReservation, int seatRow, int seatNr)
     {
-        private int rowNr = seatRow;
-        private int seatNr = seatNr;
-        private bool isPremium = isPremiumReservation;
+        private readonly int rowNr = seatRow;
+        private readonly int seatNr = seatNr;
+        private readonly bool isPremium = isPremiumReservation;
 
-        public bool isPremiumTicket() { return isPremium; }
+        public bool IsPremiumTicket() { return isPremium; }
 
-        public double getPrice() { return 0; }
+        public double GetPrice() { return movieScreening.getPricePerSeat(); }
 
         public MovieScreening GetMovieScreening()
         {
             return movieScreening;
         }
-        
-        public string toString() { return "Row Nr: " + rowNr + ", seat Nr: " + seatNr + ", is premium: " + isPremium; }
+
+        public override string ToString() { return "Row Nr: " + rowNr + ", seat Nr: " + seatNr + ", is premium: " + isPremium; }
     }
 }

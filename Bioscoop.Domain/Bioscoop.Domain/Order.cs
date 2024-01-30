@@ -1,5 +1,4 @@
-﻿using System.Xml;
-using System.Text.Json;
+﻿using System.Text.Json;
 
 namespace Bioscoop.Domain
 {
@@ -38,14 +37,14 @@ namespace Bioscoop.Domain
                     break;
                 }
 
-                price += movieTicket.getPrice();
+                price += movieTicket.GetPrice();
 
-                if (_isStudentOrder && movieTicket.isPremiumTicket())
+                if (_isStudentOrder && movieTicket.IsPremiumTicket())
                 {
                     price += 2;
                 }
 
-                if (!_isStudentOrder && movieTicket.isPremiumTicket())
+                if (!_isStudentOrder && movieTicket.IsPremiumTicket())
                 {
                     price += 3;
                 }
@@ -65,7 +64,7 @@ namespace Bioscoop.Domain
             switch (exportFormat)
             {
                 case TicketExportFormat.PLAINTEXT:
-                if (filePath is null || filePath.Equals("")) filePath = "orderInfo.txt";
+                    if (filePath is null || filePath.Equals("")) filePath = "orderInfo.txt";
                     using (StreamWriter writer = new StreamWriter(filePath))
                     {
                         writer.WriteLine("Order Number: " + _orderNr);
