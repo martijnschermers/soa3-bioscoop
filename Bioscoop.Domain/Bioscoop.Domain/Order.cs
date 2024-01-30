@@ -44,6 +44,22 @@
                     movieTicketsCopy.Remove(movieTicket);
                 }
 
+                if (_isStudentOrder && movieTicket.isPremiumTicket()) {
+                    price += 2; 
+                }
+
+                if (!_isStudentOrder && movieTicket.isPremiumTicket())
+                {
+                    price += 3;
+                }
+
+                price += movieTicket.getPrice();
+
+                if (!_isStudentOrder && Helpers.IsWeekendDay(movieScreening.GetDateAndTime()) && _movieTickets.Count >= 6)
+                {
+                    price *= 0.10;
+                }
+
             }
 
             return price;
