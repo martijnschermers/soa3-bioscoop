@@ -10,6 +10,11 @@
 
         public double getPrice() { return 0; }
 
+        public MovieScreening GetMovieScreening()
+        {
+            return movieScreening;
+        }
+        
         public string toString() { return "Row Nr: " + rowNr + ", seat Nr: " + seatNr + ", is premium: " + isPremium; }
     }
 }

@@ -7,6 +7,12 @@
         private Movie movie = movie;
 
         public double getPricePerSeat() { return pricePerSeat; }
+
+        public DateTime GetDateAndTime()
+        {
+            return dateAndTime;
+        }
+
         public string toString() { return "Movie: " + movie + ", Screening date: " + dateAndTime + ", Price per seat: " + pricePerSeat + "." }
     }
 }
