@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bioscoop-UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bioscoop-UI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bioscoop-UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bioscoop-UI.props",
+      "PackagePath": "build\\Bioscoop-UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bioscoop-UI.props",
+      "PackagePath": "buildMultiTargeting\\Bioscoop-UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bioscoop-UI.props",
+      "PackagePath": "buildTransitive\\Bioscoop-UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

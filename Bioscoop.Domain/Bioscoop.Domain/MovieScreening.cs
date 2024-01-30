@@ -13,6 +13,6 @@
             return dateAndTime;
         }
 
-        public string toString() { return "Movie: " + movie + ", Screening date: " + dateAndTime + ", Price per seat: " + pricePerSeat + "." }
+        public string toString() { return "Movie: " + movie + ", Screening date: " + dateAndTime + ", Price per seat: " + pricePerSeat + "."; }
     }
 }
