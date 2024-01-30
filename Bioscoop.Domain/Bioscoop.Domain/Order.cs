@@ -62,6 +62,7 @@ namespace Bioscoop.Domain
 
         public void Export(TicketExportFormat exportFormat, string filePath)
         {
+            if (filePath is null || filePath.Equals("")) filePath = "C:\\";
             switch (exportFormat)
             {
                 case TicketExportFormat.PLAINTEXT:
