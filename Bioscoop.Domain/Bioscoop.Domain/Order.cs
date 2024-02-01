@@ -48,12 +48,11 @@ namespace Bioscoop.Domain
                 {
                     price += 3;
                 }
+            }
 
-                if (!_isStudentOrder && Helpers.IsWeekendDay(movieScreening.GetDateAndTime()) && _movieTickets.Count >= 6)
-                {
-                    price *= 0.90;
-                }
-
+            if (!_isStudentOrder && Helpers.IsWeekendDay(_movieTickets[0].GetMovieScreening().GetDateAndTime()) && _movieTickets.Count >= 6)
+            {
+                price *= 0.90;
             }
 
             return price;
