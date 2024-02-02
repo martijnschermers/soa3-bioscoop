@@ -1,8 +1,8 @@
-﻿namespace Bioscoop.Domain
+﻿namespace Domain
 {
     public enum TicketExportFormat
     {
-        PLAINTEXT,
-        JSON
+        Plaintext,
+        Json
     }
 }

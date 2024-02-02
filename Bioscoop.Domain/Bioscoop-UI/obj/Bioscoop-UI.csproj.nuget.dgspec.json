@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\Bioscoop-UI.csproj": {}
+    "/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/Bioscoop-UI.csproj": {}
   },
   "projects": {
-    "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\Bioscoop-UI.csproj": {
+    "/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/Bioscoop-UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\Bioscoop-UI.csproj",
+        "projectUniqueName": "/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/Bioscoop-UI.csproj",
         "projectName": "Bioscoop-UI",
-        "projectPath": "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\Bioscoop-UI.csproj",
-        "packagesPath": "C:\\Users\\lucar\\.nuget\\packages\\",
-        "outputPath": "C:\\SchoolRoot\\Jaar 3\\soa3-bioscoop\\Bioscoop.Domain\\Bioscoop-UI\\obj\\",
+        "projectPath": "/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/Bioscoop-UI.csproj",
+        "packagesPath": "/home/martijn/.nuget/packages/",
+        "outputPath": "/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/martijn/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

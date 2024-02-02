@@ -1,13 +1,22 @@
-﻿namespace Bioscoop.Domain
+﻿namespace Domain
 {
     public class Movie(string title)
     {
-        private string title = title;
-        private List<MovieScreening> movieScreenings;
+        private readonly List<MovieScreening> movieScreenings = new();
 
-        public void addScreaning(MovieScreening screening) { }
-        public List<MovieScreening> getMovieScreenings() { return movieScreenings; }
+        public void AddScreaning(MovieScreening screening)
+        {
+            movieScreenings.Add(screening);
+        }
 
-        public string toString() { return title; }
+        public List<MovieScreening> GetMovieScreenings()
+        {
+            return movieScreenings;
+        }
+
+        public override string ToString()
+        {
+            return title;
+        }
     }
 }

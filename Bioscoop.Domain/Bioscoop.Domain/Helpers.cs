@@ -1,26 +1,16 @@
 ﻿
-namespace Bioscoop.Domain
+namespace Domain
 {
     public class Helpers
     {
         public static bool IsWeekDay(DateTime date)
         {
-            if (date.DayOfWeek != DayOfWeek.Saturday && date.DayOfWeek != DayOfWeek.Sunday)
-            {
-                return true;
-            }
-
-            return false;
+            return date.DayOfWeek != DayOfWeek.Saturday && date.DayOfWeek != DayOfWeek.Sunday;
         }
 
         public static bool IsWeekendDay(DateTime date)
         {
-            if (date.DayOfWeek == DayOfWeek.Saturday || date.DayOfWeek == DayOfWeek.Sunday)
-            {
-                return true;
-            }
-
-            return false;
+            return date.DayOfWeek is DayOfWeek.Saturday or DayOfWeek.Sunday;
         }
     }
 }

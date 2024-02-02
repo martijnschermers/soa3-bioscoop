@@ -1,16 +1,14 @@
 ﻿using System.Text.Json;
 
-namespace Bioscoop.Domain
+namespace Domain
 {
-    public class Order(int OrderNr, bool IsStudentOrder)
+    public class Order(int orderNr, bool isStudentOrder)
     {
-        private readonly int _orderNr = OrderNr;
-        private readonly bool _isStudentOrder = IsStudentOrder;
         private readonly List<MovieTicket> _movieTickets = [];
 
         public int GetOrderNr()
         {
-            return _orderNr;
+            return orderNr;
         }
 
         public void AddSeatReservation(MovieTicket movieTicket)
@@ -22,36 +20,31 @@ namespace Bioscoop.Domain
         {
             double price = 0;
 
-            for (int i = 0; i < _movieTickets.Count; i++)
-            {
+            for (int i = 0; i < _movieTickets.Count; i++) {
                 var movieTicket = _movieTickets[i];
                 var movieScreening = movieTicket.GetMovieScreening();
 
-                if (_isStudentOrder && i % 2 != 0)
-                {
+                if (isStudentOrder && i % 2 != 0) {
                     break;
                 }
 
-                if (Helpers.IsWeekDay(movieScreening.GetDateAndTime()))
-                {
+                if (Helpers.IsWeekDay(movieScreening.GetDateAndTime())) {
                     break;
                 }
 
                 price += movieTicket.GetPrice();
 
-                if (_isStudentOrder && movieTicket.IsPremiumTicket())
-                {
+                if (isStudentOrder && movieTicket.IsPremiumTicket()) {
                     price += 2;
                 }
 
-                if (!_isStudentOrder && movieTicket.IsPremiumTicket())
-                {
+                if (!isStudentOrder && movieTicket.IsPremiumTicket()) {
                     price += 3;
                 }
             }
 
-            if (!_isStudentOrder && Helpers.IsWeekendDay(_movieTickets[0].GetMovieScreening().GetDateAndTime()) && _movieTickets.Count >= 6)
-            {
+            if (!isStudentOrder && Helpers.IsWeekendDay(_movieTickets[0].GetMovieScreening().GetDateAndTime()) &&
+                _movieTickets.Count >= 6) {
                 price *= 0.90;
             }
 
@@ -60,25 +53,23 @@ namespace Bioscoop.Domain
 
         public void Export(TicketExportFormat exportFormat, string filePath)
         {
-            switch (exportFormat)
-            {
-                case TicketExportFormat.PLAINTEXT:
-                    if (filePath is null || filePath.Equals("")) filePath = "orderInfo.txt";
-                    using (StreamWriter writer = new StreamWriter(filePath))
-                    {
-                        writer.WriteLine("Order Number: " + _orderNr);
-                        writer.WriteLine("Is Student Order: " + _isStudentOrder);
+            switch (exportFormat) {
+                case TicketExportFormat.Plaintext:
+                    if (filePath.Equals("")) filePath = "orderInfo.txt";
+                    using (StreamWriter writer = new StreamWriter(filePath)) {
+                        writer.WriteLine("Order Number: " + orderNr);
+                        writer.WriteLine("Is Student Order: " + isStudentOrder);
                         writer.WriteLine("Movie Tickets:");
 
-                        foreach (var ticket in _movieTickets)
-                        {
-                            writer.WriteLine($"Ticket: {ticket.ToString()}");
+                        foreach (var ticket in _movieTickets) {
+                            writer.WriteLine($"Ticket: {ticket}");
                         }
                     }
+
                     break;
-                case TicketExportFormat.JSON:
-                    if (filePath is null || filePath.Equals("")) filePath = "orderInfo.json";
-                    string json = JsonSerializer.Serialize(this);
+                case TicketExportFormat.Json:
+                    if (filePath.Equals("")) filePath = "orderInfo.json";
+                    var json = JsonSerializer.Serialize(this);
                     File.WriteAllText(filePath, json);
                     break;
             }

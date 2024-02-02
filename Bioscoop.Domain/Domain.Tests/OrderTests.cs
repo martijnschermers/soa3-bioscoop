@@ -1,5 +1,3 @@
-using Bioscoop.Domain;
-
 namespace Domain.Tests
 {
     public class OrderTests

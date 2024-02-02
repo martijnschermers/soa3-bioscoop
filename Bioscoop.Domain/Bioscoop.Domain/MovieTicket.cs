@@ -1,20 +1,25 @@
-﻿namespace Bioscoop.Domain
+﻿namespace Domain
 {
     public class MovieTicket(MovieScreening movieScreening, bool isPremiumReservation, int seatRow, int seatNr)
     {
-        private readonly int rowNr = seatRow;
-        private readonly int seatNr = seatNr;
-        private readonly bool isPremium = isPremiumReservation;
+        public bool IsPremiumTicket()
+        {
+            return isPremiumReservation;
+        }
 
-        public bool IsPremiumTicket() { return isPremium; }
-
-        public double GetPrice() { return movieScreening.getPricePerSeat(); }
+        public double GetPrice()
+        {
+            return movieScreening.GetPricePerSeat();
+        }
 
         public MovieScreening GetMovieScreening()
         {
             return movieScreening;
         }
 
-        public override string ToString() { return "Row Nr: " + rowNr + ", seat Nr: " + seatNr + ", is premium: " + isPremium; }
+        public override string ToString()
+        {
+            return "Row Nr: " + seatRow + ", seat Nr: " + seatNr + ", is premium: " + isPremiumReservation;
+        }
     }
 }
