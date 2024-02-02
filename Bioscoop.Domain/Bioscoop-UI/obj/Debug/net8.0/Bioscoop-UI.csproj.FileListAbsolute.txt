@@ -1,0 +1,84 @@
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/appsettings.Development.json
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/appsettings.json
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.staticwebassets.runtime.json
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.exe
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.deps.json
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.runtimeconfig.json
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.pdb
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.GeneratedMSBuildEditorConfig.editorconfig
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.AssemblyInfoInputs.cache
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.AssemblyInfo.cs
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.csproj.CoreCompileInputs.cache
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.MvcApplicationPartsAssemblyInfo.cache
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.sourcelink.json
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets.build.json
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets.development.json
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets/msbuild.Bioscoop-UI.Microsoft.AspNetCore.StaticWebAssets.props
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets/msbuild.build.Bioscoop-UI.props
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Bioscoop-UI.props
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Bioscoop-UI.props
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets.pack.json
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/scopedcss/bundle/Bioscoop-UI.styles.css
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/scopedcss/projectbundle/Bioscoop-UI.bundle.scp.css
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/refint/Bioscoop-UI.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.pdb
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.genruntimeconfig.cache
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/ref/Bioscoop-UI.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Authorization.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Components.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Forms.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Web.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Metadata.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.Extensions.Localization.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.Extensions.Localization.Abstractions.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.JSInterop.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/MudBlazor.dll
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.csproj.AssemblyReference.cache
+C:/SchoolRoot/Jaar 3/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.csproj.CopyComplete
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/appsettings.Development.json
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/appsettings.json
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.staticwebassets.runtime.json
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.deps.json
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.runtimeconfig.json
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Bioscoop-UI.pdb
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Authorization.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Components.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Forms.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Web.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.AspNetCore.Metadata.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.Extensions.Localization.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.Extensions.Localization.Abstractions.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/Microsoft.JSInterop.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/bin/Debug/net8.0/MudBlazor.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.csproj.AssemblyReference.cache
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.GeneratedMSBuildEditorConfig.editorconfig
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.AssemblyInfoInputs.cache
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.AssemblyInfo.cs
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.csproj.CoreCompileInputs.cache
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.MvcApplicationPartsAssemblyInfo.cache
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.sourcelink.json
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets.build.json
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets.development.json
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets/msbuild.Bioscoop-UI.Microsoft.AspNetCore.StaticWebAssets.props
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets/msbuild.build.Bioscoop-UI.props
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Bioscoop-UI.props
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Bioscoop-UI.props
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/staticwebassets.pack.json
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/scopedcss/bundle/Bioscoop-UI.styles.css
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/scopedcss/projectbundle/Bioscoop-UI.bundle.scp.css
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.csproj.CopyComplete
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/refint/Bioscoop-UI.dll
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.pdb
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/Bioscoop-UI.genruntimeconfig.cache
+/home/martijn/Documents/github/soa3-bioscoop/Bioscoop.Domain/Bioscoop-UI/obj/Debug/net8.0/ref/Bioscoop-UI.dll
