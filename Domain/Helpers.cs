@@ -1,7 +1,7 @@
 ﻿
 namespace Domain
 {
-    public class Helpers
+    public static class Helpers
     {
         public static bool IsWeekDay(DateTime date)
         {

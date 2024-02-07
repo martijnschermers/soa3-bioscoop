@@ -55,7 +55,7 @@ namespace Domain
         {
             switch (exportFormat) {
                 case TicketExportFormat.Plaintext:
-                    if (filePath.Equals("")) filePath = "orderInfo.txt";
+                    if (string.IsNullOrEmpty(filePath)) filePath = "orderInfo.txt";
                     using (StreamWriter writer = new StreamWriter(filePath)) {
                         writer.WriteLine("Order Number: " + orderNr);
                         writer.WriteLine("Is Student Order: " + isStudentOrder);
@@ -68,7 +68,7 @@ namespace Domain
 
                     break;
                 case TicketExportFormat.Json:
-                    if (filePath.Equals("")) filePath = "orderInfo.json";
+                    if (string.IsNullOrEmpty(filePath)) filePath = "orderInfo.json";
                     var json = JsonSerializer.Serialize(this);
                     File.WriteAllText(filePath, json);
                     break;
