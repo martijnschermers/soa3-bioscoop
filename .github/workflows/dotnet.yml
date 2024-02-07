@@ -19,11 +19,11 @@ jobs:
       with:
         dotnet-version: '8.x' 
     - name: Restore dependencies
-      run: dotnet restore ./Bioscoop.Domain/Bioscoop.sln
+      run: dotnet restore
     - name: Build
-      run: dotnet build ./Bioscoop.Domain/Bioscoop.sln --no-restore
+      run: dotnet build --no-restore
     - name: Test
-      run: dotnet test ./Bioscoop.Domain/Domain.Tests/Domain.Tests.csproj --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal
 
   sonarcloud:
     name: SonarCloud
