@@ -11,9 +11,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Setup .NET
@@ -26,3 +24,15 @@ jobs:
       run: dotnet build ./Bioscoop.Domain/Bioscoop.sln --no-restore
     - name: Test
       run: dotnet test ./Bioscoop.Domain/Domain.Tests/Domain.Tests.csproj --no-build --verbosity normal
+
+  sonarcloud:
+    name: SonarCloud
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env: 
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
